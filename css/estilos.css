@@ -149,16 +149,7 @@ background-color: rgb(247, 247, 183);
     margin-top: 10px;
     align-items: center;
 }
-.triangulo_izq {
-    position: relative;
-    right: -578px;
-   
-    width: 0;
-    height: 0;
-    border-top: 80px solid transparent;
-    border-right: 90px solid #F4F6FB;
-    border-bottom: 80px solid transparent;
-}
+
 .reloj i{
     color: #163edf;
     background-color: #e8ebfa;
