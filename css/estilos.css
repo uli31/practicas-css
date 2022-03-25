@@ -149,7 +149,16 @@ background-color: rgb(247, 247, 183);
     margin-top: 10px;
     align-items: center;
 }
-
+.triangulo_izq {
+    position: relative;
+    right: -578px;
+   
+    width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-right: 90px solid #F4F6FB;
+    border-bottom: 80px solid transparent;
+}
 .reloj i{
     color: #163edf;
     background-color: #e8ebfa;
@@ -168,7 +177,8 @@ background-color: rgb(247, 247, 183);
 }
 
 .encuentranos{
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-left: -30px;
     background-color:white;
     height: 140px;
     width: 1150px;
@@ -276,7 +286,7 @@ background-color: rgb(247, 247, 183);
 
 h2{
     color: #1F3E72;
-    font-size: 60px;
+    font-size: 50px;
   
 }
 
@@ -292,7 +302,7 @@ h2{
     color:#6d6d6d ;
     font-size: 20px;
     margin-top: 30px;
-    line-height: 40px;
+    
    
 }
 .card:hover{
@@ -302,7 +312,7 @@ h2{
     color:#6d6d6d ;
     font-size: 20px;
     margin-top: 30px;
-    line-height: 40px;
+   
 }
 .card h3{
     font-size: 30px;
@@ -328,7 +338,7 @@ h2{
 .usa-cubrebocas img{
     margin-left: -60px;
     margin-top: 180px;
-    width: 45%;
+    width: 50%;
     background-color: #207DE0;
     
 }
@@ -336,7 +346,7 @@ h2{
 .usa-cubrebocas p{
     font-size: 27px;
     color: #5b5b5c;
-    line-height: 40px;
+    
 }
 
 .preguntas-fre{
@@ -394,13 +404,9 @@ h2{
 }
 .contact{
     display:grid;
-    margin: 90px 30px;
-     grid-template-columns: 50% 50%;
-     grid-template-rows:  50% 50%;
-     grid-gap: 20px;
-    
-     
-    
+     grid-template-columns: 50% 50% ;
+     grid-template-rows: 50% 50% ;
+    grid-gap: 10px;
 }
 
 .contacto-emergy{
